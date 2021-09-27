@@ -1,21 +1,4 @@
 {
-  "cmd": {
-    "cmd": "json-server --watch db.json --host 192.168.1.106 --port 4000"
-  },
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
   "getRooms": [
     {
       "id": "e9827c34-2507-42a4-8ff0-3f7ed3a61ca9",
