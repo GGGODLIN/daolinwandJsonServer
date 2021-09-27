@@ -410,26 +410,63 @@
     },
     {
       "enable": true,
-      "id": "TestScene-2-2",
-      "triggers": [],
+      "id": "TestScene-3",
+      "triggers": [
+        1
+      ],
       "trigRuleLogical": 10,
       "constraints": [],
       "actions": [
         1,
-        2
+        2,
+        3
       ],
-      "ruleCards": [],
+      "ruleCards": [
+        {
+          "id": 1,
+          "ct": 2,
+          "dvId": "GOLD-NJkdTjm6Dsh7",
+          "objId": 5,
+          "rules": [
+            {
+              "op": 4,
+              "value": 45,
+              "valueType": "integer"
+            }
+          ]
+        }
+      ],
       "actCards": [
         {
           "id": 1,
-          "ct": 3,
-          "sceneId": "TestScene-2-1"
+          "ct": 2,
+          "dvId": "GOLD-UNz9qfQfdGEv",
+          "objId": 5,
+          "rules": [
+            {
+              "op": 16,
+              "value": 40,
+              "valueType": "integer"
+            }
+          ]
         },
         {
-          "Delay": "0:0:10",
           "id": 2,
           "ct": 2,
-          "dvId": "GOLD-NJkdTjm6Dsh7",
+          "dvId": "GOLD-9kuwvCKtPlHy",
+          "objId": 5,
+          "rules": [
+            {
+              "op": 16,
+              "value": 40,
+              "valueType": "integer"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "ct": 2,
+          "dvId": "GOLD-r0MG7DzhTJpT",
           "objId": 5,
           "rules": [
             {
