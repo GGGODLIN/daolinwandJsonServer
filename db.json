@@ -268,6 +268,124 @@
     },
     {
       "enable": true,
+      "id": "TestScene-1_264",
+      "trigRuleLogical": 9,
+      "triggers": [
+        1,
+        3
+      ],
+      "constraints": [
+        2,
+        4
+      ],
+      "actions": [
+        1,
+        2,
+        3
+      ],
+      "ruleCards": [
+        {
+          "id": 1,
+          "ct": 2,
+          "dvId": "GOLD-NJkdTjm6Dsh7",
+          "objId": 5,
+          "ruleLogic": 9,
+          "deviceType": 264,
+          "rules": [
+            {
+              "op": 3,
+              "value": 49,
+              "valueType": "integer"
+            },
+            {
+              "op": 4,
+              "value": 51,
+              "valueType": "integer"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "ct": 2,
+          "dvId": "GOLD-UNz9qfQfdGEv",
+          "objId": 5,
+          "ruleLogic": 9,
+          "rules": [
+            {
+              "op": 5,
+              "value": 50,
+              "valueType": "integer"
+            },
+            {
+              "op": 6,
+              "value": 51,
+              "valueType": "integer"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "ct": 1,
+          "time": [
+            "19:06:20-19:06:20"
+          ],
+          "repeatWD": "1,2,3,4,5,6",
+          "actPeriod": {
+            "start": "9/1",
+            "end": "10/31",
+            "everyYear": true
+          }
+        },
+        {
+          "id": 4,
+          "ct": 1,
+          "time": [
+            "09:00:00-22:00:00"
+          ],
+          "repeatWD": "1,2,3,4,5,6",
+          "actPeriod": {
+            "start": "9/1",
+            "end": "10/31",
+            "everyYear": true
+          }
+        }
+      ],
+      "actCards": [
+        {
+          "id": 1,
+          "ct": 3,
+          "sceneId": "TestScene-2-1"
+        },
+        {
+          "id": 2,
+          "ct": 2,
+          "dvId": "GOLD-9kuwvCKtPlHy",
+          "objId": 5,
+          "rules": [
+            {
+              "op": 16,
+              "value": 50,
+              "valueType": "integer"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "ct": 2,
+          "dvId": "GOLD-r0MG7DzhTJpT",
+          "objId": 5,
+          "rules": [
+            {
+              "op": 16,
+              "value": 50,
+              "valueType": "integer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "enable": true,
       "id": "TestScene-2-1",
       "triggers": [],
       "trigRuleLogical": 10,
